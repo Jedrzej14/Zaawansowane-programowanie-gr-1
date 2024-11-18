@@ -21,3 +21,8 @@ print(multiply_by_two_for_loop(numbers))
 # %%
 def pomnozone_przez_dwa(numbers):
     return()
+# %%
+def lista_liczb():
+    for liczba in range(10):
+        print(liczba)
+lista_liczb()

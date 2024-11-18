@@ -1,3 +1,4 @@
+# %% A)
 def wyswietl_imiona(imiona):
     for imie in imiona:
         print(imie)
@@ -6,23 +7,28 @@ lista_imion = ['Anna', 'Jan', 'Michał', 'Kasia', 'Piotr']
 wyswietl_imiona(lista_imion)
 
 
-# %%
+# %% B)
+def pomnoz_przez_dwa(lista):
+    return [liczba * 2 for liczba in lista]
 
-def multiply_by_two_for_loop(numbers):
-    result = []
-    for number in numbers:
-        result.append(number * 2)
-    return result
+liczby = [1, 2, 3, 4, 5]
+wynik = pomnoz_przez_dwa(liczby)
+print(wynik)
 
-# Przykład użycia
-numbers = [1, 2, 3, 4, 5]
-print(multiply_by_two_for_loop(numbers))
 
-# %%
-def pomnozone_przez_dwa(numbers):
-    return()
-# %%
-def lista_liczb():
-    for liczba in range(10):
-        print(liczba)
-lista_liczb()
+
+# %% C_
+def pokaz_parzyste(numbers):
+    for liczby in numbers:
+        if liczby % 2 == 0:
+            print(liczby)
+numbers = range (10)
+print((pokaz_parzyste(numbers)))
+
+# %% D)
+def _wpisz_co_druga(liczby):
+    for i in range (0, len(liczby), 2 ):
+        print(i)
+liczby = range (10)
+print(_wpisz_co_druga(liczby))
+

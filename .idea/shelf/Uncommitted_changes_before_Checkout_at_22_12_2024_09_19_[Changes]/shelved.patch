@@ -1,0 +1,23 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.12 (Zaawansowane-programowanie-gr-1)\" project-jdk-type=\"Python SDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 0d8aae28b17dc475d8b9e805cf8e78411359577b)
++++ b/.idea/misc.xml	(date 1734789916362)
+@@ -1,4 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.12 (Zaawansowane-programowanie-gr-1)" />
++  </component>
+   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (Zaawansowane-programowanie-gr-1)" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
+diff --git a/queues_on_files/Consumer.py b/queues_on_files/Consumer.py
+new file mode 100644
+diff --git a/queues_on_files/Producer.py b/queues_on_files/Producer.py
+new file mode 100644

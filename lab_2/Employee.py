@@ -8,3 +8,6 @@ class Employee:
         self.street = street
         self.zip_code = zip_code
         self.phone = phone
+    def __str__(self):
+        return (f'Imie {self.first_name}, Nazwisko {self.last_name}, Data zatrudnienia {self.hire_date}//'
+                f'Data urodzenia {self.birth_date}, ' )

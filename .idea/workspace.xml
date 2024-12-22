@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6744745b-07a4-4e89-adc2-c0f26b7bea72" name="Changes" comment="Python_oop" />
+    <list default="true" id="1a9de1b1-3b05-4379-9b7f-999eddc9f12c" name="Changes" comment="Python_oop" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="python_oop" />
+        <entry key="$PROJECT_DIR$" value="python_typing" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,11 +33,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -104,6 +104,7 @@
     <MESSAGE value="Dodano magazyn" />
     <MESSAGE value="Dodano queues_on_files" />
     <MESSAGE value="Python_oop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python_oop" />
+    <MESSAGE value="Brewery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Brewery" />
   </component>
 </project>

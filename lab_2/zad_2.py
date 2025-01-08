@@ -1,17 +1,17 @@
 # Tworzenie bibliotek
 from lab_2.Employee import Employee
 from lab_2.Library import Library
+from lab_2.Book import Book
+from lab_2.Order import Order
 
-
-@Library
 library1 = Library("Warszawa", "Ulica 1", "00-001", "8:00-18:00", "123-456-789")
 library2 = Library("Kraków", "Ulica 2", "00-002", "9:00-17:00", "987-654-321")
-@Employee
+
 # Tworzenie pracowników
 employee1 = Employee("Jan", "Kowalski", "2020-01-01", "1985-05-05", "Warszawa", "Ulica 1", "00-001", "123-456-789")
 employee2 = Employee("Anna", "Nowak", "2019-02-01", "1988-06-06", "Kraków", "Ulica 2", "00-002", "987-654-321")
 employee3 = Employee("Paweł", "Wiśniewski", "2021-03-01", "1990-07-07", "Warszawa", "Ulica 3", "00-003", "111-222-333")
-@Book
+
 # Tworzenie książek
 book1 = Book(library1, "2010-01-01", "Adam", "Mickiewicz", 300)
 book2 = Book(library2, "2015-02-02", "Henryk", "Sienkiewicz", 500)

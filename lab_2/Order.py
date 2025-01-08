@@ -5,5 +5,4 @@ class Order:
         self.Book = Book
         self.order_date = order_date
     def __str__(self):
-        def __str__(self):
-            return f'Pracownik z {self.employee} drzwiami w kolorze'
+        return (f'Order by: {self.employee}, Student: {self.student}, Book: {self.Book}, Order Date: {self.order_date}')
